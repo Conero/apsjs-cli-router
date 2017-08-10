@@ -6,7 +6,7 @@
 "use strict"
 
 const util = require('./util')
-const about = require('./package.json')
+const about = require('../package.json')
 
 class Router{        
     constructor() {
