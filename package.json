@@ -1,0 +1,18 @@
+{
+  "name": "cli-router",
+  "version": "0.0.1",
+  "description": "命令号路由器",
+  "main": "src/router.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Conero/cli-router.git"
+  },
+  "author": "Joshua Conero",
+  "license": "ISC"
+}
