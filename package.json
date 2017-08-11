@@ -1,6 +1,6 @@
 {
   "name": "apsjs-cli-router",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "命令号路由器",
   "main": "src/router.js",
   "scripts": {

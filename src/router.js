@@ -24,6 +24,7 @@ class Router{
         this.doc = '';
         // 输出前缀
         // this.showpref = '\r\t'
+        // 四个空格
         this.visualTb = `    `
         this.showpref = "\r\n" + this.visualTb
         this._docStackArray = new Array()
@@ -93,6 +94,11 @@ class Router{
      */
     Panic(msg){}
     /**
+     * 空命令-附加接口
+     * @param {string} pref 
+     */
+    EmptyCommandPlus(pref){}
+    /**
      * 空命令时
      */
     EmptyCommand(){
@@ -103,6 +109,7 @@ class Router{
             console.log(this.visualTb + `Let's Doing Something Good, Com'on. `)
             console.log(this.visualTb + `We Guys Always Do the Best, do't we? `)
             console.log(doc)
+            this.EmptyCommandPlus(this.visualTb)
         }
     }
     /**
